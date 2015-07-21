@@ -1,3 +1,5 @@
+## Author: Paulo Assuncao
+
 ## Functions below implements a cache mechanism that avoid unnecessary 
 ## calculation of inverse of a matrix
 
@@ -28,7 +30,6 @@ makeCacheMatrix <- function(x = matrix()) {
     
     list(set = set, get = get, setInverse = setInverse, getInverse = getInverse)
 }
-
 
 ## cacheSolve return an inverse of a matrix passed as parameter. If the matrix 
 ## already has its inverse calculated, cacheSolve just retrieves its value.
